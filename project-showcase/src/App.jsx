@@ -84,7 +84,7 @@ function App() {
           style={{ width: "100%", padding: "8px", border: "1px solid black", marginBottom: "15px" }}
         />
 
-        {results.length === 0 && <p>No projects found.</p>}
+        {results.length === 0 && <p>No project found.</p>}
 
         {results.map((item) => (
           <div
